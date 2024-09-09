@@ -1,0 +1,58 @@
+:root{
+    --primary-color: #F1DEC6;
+    --bg-color: #179BAE;
+}
+
+body{
+    background-color: var(--bg-color) ;
+    color:var(--primary-color);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:0;   
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size:1.5em;
+    margin-top: 5vh;
+}
+
+.box{
+    border: 2px solid var(--primary-color) ;
+    display: inline-block;
+    padding:1%;
+    font-size: 5vh;
+    margin:2%;
+}
+
+.btnJogarNovamente{
+    border-radius:5px;
+    border:none;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:1.25%;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    font-weight: 800;
+    cursor: pointer;
+    margin:2%;
+
+}
